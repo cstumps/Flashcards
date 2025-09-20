@@ -11,7 +11,8 @@ import SwiftUI
 struct FlashcardsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView(deck: StringCardDeck())
+            DeckContentChooser()
         }
     }
 }
